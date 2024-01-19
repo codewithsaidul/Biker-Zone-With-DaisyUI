@@ -42,6 +42,10 @@
         .font__inter {
             font-family: 'Inter', sans-serif;
         }
+
+        .card-body {
+            padding: 0;
+        }
     </style>
 </head>
 
@@ -91,24 +95,27 @@
 
 
     <!-- ============================ main ========================== -->
-    <main class="max-w-[1128px] w-full  md:w-10/12 md:mx-auto">
+    <main class="max-w-[1279px] w-full  md:w-10/12 md:mx-auto">
+
+        <!-- ================== Banner Section ================== -->
         <section class="banner">
             <div class="carousel w-full h-[550px] bg-bikeprimary-bg">
 
                 <!-- ======= Slider Item 1 ========= -->
                 <div id="slide1" class="carousel-item relative w-full">
-                    
-                    <div class="flex flex-col lg:flex-row p-24">
+
+                    <div class="flex flex-col lg:flex-row p-20 md:p-16 lg:p-24">
                         <div class="space-y-8 flex-1">
                             <h1 class="text-3xl md:text-6xl font-bold text-[#000000]">Ride-on R15 V4 with Smile</h1>
-                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non deserunt ullamco 
+                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non
+                                deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                             </p>
                             <a class="btn hover:bg-bikeprimary bg-bikeprimary text-white">Purchase</a>
                         </div>
 
                         <div class="flex-1">
-                            <img src="./images/slider/bike1.png" class="w-full"/>
+                            <img src="./images/slider/bike1.png" class="w-full" />
                         </div>
                     </div>
 
@@ -121,18 +128,19 @@
 
                 <!-- ======= Slider Item 2 ========= -->
                 <div id="slide2" class="carousel-item relative w-full">
-                    
+
                     <div class="flex flex-col lg:flex-row p-24">
                         <div class="space-y-8 flex-1">
                             <h1 class="text-3xl md:text-6xl font-bold text-[#000000]">Ride-on R15 V4 with Smile</h1>
-                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non deserunt ullamco 
+                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non
+                                deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                             </p>
                             <a class="btn hover:bg-bikeprimary bg-bikeprimary text-white">Purchase</a>
                         </div>
 
                         <div class="flex-1">
-                            <img src="./images/slider/bike2.png" class="w-full"/>
+                            <img src="./images/slider/bike2.png" class="w-full" />
                         </div>
                     </div>
 
@@ -145,18 +153,19 @@
 
                 <!-- ====== Slider Item 3 ========== -->
                 <div id="slide3" class="carousel-item relative w-full">
-                    
+
                     <div class="flex flex-col lg:flex-row p-24">
                         <div class="space-y-8 flex-1">
                             <h1 class="text-3xl md:text-6xl font-bold text-[#000000]">Ride-on R15 V4 with Smile</h1>
-                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non deserunt ullamco 
+                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non
+                                deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                             </p>
                             <a class="btn hover:bg-bikeprimary bg-bikeprimary text-white">Purchase</a>
                         </div>
 
                         <div class="flex-1">
-                            <img src="./images/slider/bike3.png" class="w-full"/>
+                            <img src="./images/slider/bike3.png" class="w-full" />
                         </div>
                     </div>
 
@@ -169,18 +178,19 @@
 
                 <!-- ======= Slider Item 4 ========= -->
                 <div id="slide4" class="carousel-item relative w-full">
-                    
+
                     <div class="flex flex-col lg:flex-row p-24">
                         <div class="space-y-8 flex-1">
                             <h1 class="text-3xl md:text-6xl font-bold text-[#000000]">Ride-on R15 V4 with Smile</h1>
-                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non deserunt ullamco 
+                            <p class="w-full md:w-[440px] text-base font-normal text-[#000000CC]">Amet minim mollit non
+                                deserunt ullamco
                                 est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                             </p>
                             <a class="btn hover:bg-bikeprimary bg-bikeprimary text-white">Purchase</a>
                         </div>
 
                         <div class="flex-1">
-                            <img src="./images/slider/bike4.png" class="w-full"/>
+                            <img src="./images/slider/bike4.png" class="w-full" />
                         </div>
                     </div>
 
@@ -193,6 +203,66 @@
 
             </div>
         </section>
+        <!-- ================== Banner Section ================== -->
+
+
+        <!-- ================== latest bike Section ================== -->
+        <section class="latest my-32">
+            <h2 class="text-5xl font-semibold text-[#0A0826] uppercase text-center mb-12">latest bike</h2>
+
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- ============ Latest Bike Item 1 =============== -->
+                <div class="card bg-base-100 shadow-xl space-y-4 p-5">
+                    <figure>
+                        <img src="./images/others/latest1.png" alt="Shoes" />
+                    </figure>
+                    
+                    <div class="card-body space-y-3">
+                        <h2 class="text-xl text-[#18191F] font-semibold md:text-3xl">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button class="border border-bikeprimary bg-transparent text-bikeprimary btn hover:bg-bikeprimary hover:text-white hover:transition-colors hover:duration-[1s]">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============ Latest Bike Item 1 =============== -->
+
+                <!-- ============ Latest Bike Item 2 =============== -->
+                <div class="card bg-base-100 shadow-xl space-y-4 p-5">
+                    <figure>
+                        <img src="./images/others/latest2.png" alt="Shoes" />
+                    </figure>
+                    
+                    <div class="card-body space-y-3">
+                        <h2 class="text-xl text-[#18191F] font-semibold md:text-3xl">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button class="border border-bikeprimary bg-transparent text-bikeprimary btn hover:bg-bikeprimary hover:text-white hover:transition-colors hover:duration-[1s]">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============ Latest Bike Item 2 =============== -->
+
+                <!-- ============ Latest Bike Item 3 =============== -->
+                <div class="card bg-base-100 shadow-xl space-y-4 p-5">
+                    <figure>
+                        <img src="./images/others/latest3.png" alt="Shoes" />
+                    </figure>
+                    
+                    <div class="card-body space-y-3">
+                        <h2 class="text-xl text-[#18191F] font-semibold md:text-3xl">Ducati XDIAVEL S-73</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button class="border border-bikeprimary bg-transparent text-bikeprimary btn hover:bg-bikeprimary hover:text-white hover:transition-colors hover:duration-[1s]">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ============ Latest Bike Item 3 =============== -->
+            </div>
+        </section>
+        <!-- ================== latest bike Section ================== -->
+
     </main>
     <!-- ============================ main ========================== -->
 
